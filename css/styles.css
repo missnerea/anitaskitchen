@@ -102,18 +102,56 @@ background-image: url('../img/landing.jpg');
 
 .breakfast {
   background-image: url('../img/breakfast.jpg');
+  text-align: center;
+}
+
+#breakfast:hover{
+  bottom: 0;
+  right: 0;
+background:rgba(250,250,250,0.5);
+  opacity: 0.5;
+  color: black;
+  overflow: hidden;
+  transition: .5s ease;
 }
 
 .lunch {
   background-image: url('../img/dinner2.jpg');
+  text-align: center;
+}
+
+#lunch:hover{
+  bottom: 0;
+  right: 0;
+background:rgba(250,250,250,0.5);
+  opacity: 0.5;
+  color: black;
+  overflow: hidden;
+  transition: .5s ease;
 }
 
 .dinner {
   background-image: url('../img/dinner.jpg');
+  text-align: center;
+}
+
+#dinner:hover{
+  bottom: 0;
+  right: 0;
+background:rgba(250,250,250,0.5);
+  opacity: 0.5;
+  color: black;
+  overflow: hidden;
+  transition: .5s ease;
 }
 
 .footer{
   background-color: #F15A29;
   text-align: center;
   padding: 20px;
+}
+
+.space {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
